@@ -10,6 +10,7 @@
   
   body {
     background: #ccc;
+    transform: scale(1.2); /* Scale up by a factor of 2 */
   }
   body .card {
     height: 45vw;
