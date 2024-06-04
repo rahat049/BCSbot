@@ -12,9 +12,33 @@
     background: #ccc;
     transform: scale(1.2); /* Scale up by a factor of 2 */
   }
+/* Styles for screens smaller than 768px (iPhones) */
+  @media only screen and (max-width: 768px) {
+    .card {
+      width: 180%; /* Adjust card width for smaller screens */
+      margin: 10px auto; /* Center the card horizontally */
+    }
+    .message {
+      font-size: 114px; /* Adjust font size for better readability */
+    }
+  }
+  
+  /* Styles for screens between 768px and 1024px (iPads) */
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .card {
+      width: 160%; /* Adjust card width for iPads */
+    }
+  }
+  
+  /* Styles for large screens (PCs) */
+  @media only screen and (min-width: 1024px) {
+    .card {
+      width: 140%; /* Adjust card width for PCs */
+    }
+  }
   body .card {
-    height: 45vw;
-    width: 35vw;
+    height: 85vw;
+    width: 75vw;
     background-color: white;
     margin-left: 30vw;
     margin-top: 5vw;
@@ -35,7 +59,7 @@
     width: 10px;
   }
   body .card #message-section {
-    height: 32vw;
+    height: 42vw;
     padding: 0 2.5vw;
     overflow-y: auto;
     scrollbar-width: thin;
