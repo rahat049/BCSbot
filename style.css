@@ -41,7 +41,7 @@
     width: 75vw;
     background-color: white;
     margin-left: 30vw;
-    margin-top: 5vw;
+    margin-top: 10vw;
     box-shadow: 2vw 2vw 12vw 3vw #ccc;
   }
   body .card #header {
@@ -76,6 +76,7 @@
   body .card #message-section #bot,
   body .card #message-section #user {
     position: relative;
+      font-size: 26px;
     bottom: 0;
     min-height: 1.5vw;
     border: 0.15vw solid #777;
@@ -89,6 +90,7 @@
     border-radius: 1.5vw 0vw 1.5vw 1.8vw;
     background-color: #000;
     float: right;
+      font-size: 26px;
   }
   body .card #message-section #user #user-response {
     color: #fff;
